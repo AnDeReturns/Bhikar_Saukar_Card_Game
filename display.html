@@ -1,0 +1,44 @@
+<!-- index typically default name -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- load style sheets and scripts -->
+        <title>My webpage!</title>
+        <style>
+            .text-center
+            {
+                text-align: center
+            }
+        </style>
+        <script src="test.js"></script>
+    </head>
+    <body style="font-family: Arial, sans-serif;">
+        <h1 class = text-center>भिकार सावकार</h1>
+        <h1 class = text-center>"Bhikar Saukar"</h1>
+        <div class = text-center>
+            <button id="p1" style="background-color: blue; color:white">Player 1</button>
+            <button id="p2" style="background-color: blue; color:white">Player 2</button>
+        </div>
+        <div class = text-center>
+            <h2 id= p1num style="display: inline-block">26</h2>
+            <h2 id = p2num style="display: inline-block">26</h2>
+        </div>
+        <div class = text-center>
+            <img id = img>
+        </div>
+        <div class = text-center>
+            <h2 id=stacknum style="display: inline-block">0</h2>
+        </div>
+        <div class = text-center>
+            <h2 id=AS style="display: inline-block"></h2>
+        </div>
+        <div class = text-center>
+            <h2 id=moves style="display: inline-block">0</h2>
+        </div>
+        <div class = text-center>
+            <p>Each player takes turns adding to the stack from the top of their decks.</p>
+            <p>If the suit of the new card is the same as the suit of the previous card, then that player gets the whole stack.</p>
+            <p>The player with more cards at the end of 50 moves wins.</p>
+        </div>
+    </body>
+</html>
